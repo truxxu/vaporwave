@@ -1,14 +1,13 @@
 import React from "react";
-import { Button, ThemeProvider } from "@react95/core";
+import { ThemeProvider } from "@react95/core";
 import "@react95/icons/icons.css";
+import Desktop from "./components/Desktop";
 
 const App = () => {
   return (
-    <div>
-      <ThemeProvider>
-        <Button>Click me!</Button>
-      </ThemeProvider>
-    </div>
+    <ThemeProvider>
+      <Desktop />
+    </ThemeProvider>
   );
 };
 
